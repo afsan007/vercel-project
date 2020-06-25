@@ -1,0 +1,47 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت ایران یکان یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANYekan fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: J43SM
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('IRANYekan Light'),
+    url('./font/woff2/iranyekanweblight.woff2') format('woff2'),
+    url('./font/woff/iranyekanweblight.woff') format('woff'),
+    url('./font/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRANYekan Regular'),
+    url('./font/woff2/iranyekanwebregular.woff2') format('woff2'),
+    url('./font/woff/iranyekanwebregular.woff') format('woff'),
+    url('./font/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANYekan';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRANYekan Bold'),
+    url('./font/woff2/iranyekanwebbold.woff2') format('woff2'),
+    url('./font/woff/iranyekanwebbold.woff') format('woff'),
+    url('./font/ttf/iranyekanwebbold.ttf') format('truetype');
+}

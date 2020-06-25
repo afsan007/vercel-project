@@ -1,0 +1,47 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت های ایران شارپ یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت www.fontiran.com مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANSharp fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (...)
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANSharp';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('IRANSharp Light'),
+    url('./font/woff2/iransharp_light_web.woff2') format('woff2'),
+    url('./font/woff/iransharp_light_web.woff') format('woff'),
+    url('./font/ttf/iransharp_light_web.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSharp';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRANSharp Regular'),
+    url('./font/woff2/iransharp_regular_web.woff2') format('woff2'),
+    url('./font/woff/iransharp_regular_web.woff') format('woff'),
+    url('./font/ttf/iransharp_regular_web.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSharp';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRANSharp Bold'),
+    url('./font/woff2/iransharp_bold_web.woff2') format('woff2'),
+    url('./font/woff/iransharp_bold_web.woff') format('woff'),
+    url('./font/ttf/iransharp_bold_web.ttf') format('truetype');
+}

@@ -1,0 +1,60 @@
+/**
+*
+-------------------------------------------------------------------------------------- خانواده فونت ایران یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Family typeface fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: CL4L6
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRAN';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRAN Regular'),
+    url('./font/woff2/IRAN.woff2') format('woff2'),
+    url('./font/woff/IRAN.woff') format('woff'),
+    url('./font/ttf/IRAN.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRAN';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('IRANSemiBold Regular'),
+    local('IRAN SemiBold'),
+    url('./font/woff2/IRAN_SemiBold.woff2') format('woff2'),
+    url('./font/woff/IRAN_SemiBold.woff') format('woff'),
+    url('./font/ttf/IRAN_SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRAN';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRAN Bold'),
+    url('./font/woff2/IRANBold.woff2') format('woff2'),
+    url('./font/woff/IRANBold.woff') format('woff'),
+    url('./font/ttf/IRANBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRAN';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('IRANBlack Regular'),
+    local('IRAN Black'),
+    url('./font/woff2/IRANBlack.woff2') format('woff2'),
+    url('./font/woff/IRANBlack.woff') format('woff'),
+    url('./font/ttf/IRANBlack.ttf') format('truetype');
+}

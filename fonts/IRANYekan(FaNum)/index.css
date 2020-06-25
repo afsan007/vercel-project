@@ -1,0 +1,47 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت ایران یکان یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRANYekan fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: J43SM
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANYekan(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('IRANYekan(FaNum) Light'),
+    url('./font/woff2/iranyekanweblight(fanum).woff2') format('woff2'),
+    url('./font/woff/iranyekanweblight(fanum).woff') format('woff'),
+    url('./font/ttf/iranyekanweblight(fanum).ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANYekan(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRANYekan(FaNum) Regular'),
+    url('./font/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),
+    url('./font/woff/iranyekanwebregular(fanum).woff') format('woff'),
+    url('./font/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANYekan(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRANYekan(FaNum) Bold'),
+    url('./font/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
+    url('./font/woff/iranyekanwebbold(fanum).woff') format('woff'),
+    url('./font/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+}

@@ -1,0 +1,22 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت ایران گرد یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت www.fontiran.com مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Rounded font is considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: B3XXL
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANRounded';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRAN Rounded Regular'),
+    url('./font/IRAN Rounded.woff') format('woff'),
+    url('./font/IRAN Rounded.ttf') format('truetype');
+}

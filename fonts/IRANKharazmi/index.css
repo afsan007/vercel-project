@@ -1,0 +1,22 @@
+/**
+*
+--------------------------------------------------------------------------------------
+فونت ایران خوارزمی یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت www.fontiran.com مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Kharazmi font is considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (...)
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANKharazmi';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRAN Kharazmi Bold'),
+    url('./font/IRAN Kharazmi.woff') format('woff'),
+    url('./font/IRAN Kharazmi.ttf') format('truetype');
+}

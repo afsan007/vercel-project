@@ -1,0 +1,90 @@
+/**
+*
+* Name: IRAN Sans-Serif Font
+* Version: 5.0
+* Author: Moslem Ebrahimi (moslemebrahimi.com)
+* Created on: Dec 25, 2012
+* Updated on: Sep 01, 2017
+* Website: http://fontiran.com
+* Copyright: Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت های ایران سن سریف یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+IRAN Sans-serif fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: BGPAZ
+--------------------------------------------------------------------------------------
+*
+**/
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('IRANSans(FaNum) UltraLight'),
+    url('./font/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('IRANSans(FaNum) Light'),
+    url('./font/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local('IRANSans(FaNum) Regular'),
+    url('./font/woff2/IRANSansWeb.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    local('IRANSans(FaNum) Medium'),
+    url('./font/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src:
+    local('IRANSans(FaNum) Bold'),
+    url('./font/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IRANSans(FaNum)';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('IRANSans(FaNum) Black'),
+    url('./font/woff2/IRANSansWeb(FaNum)_Black.woff2') format('woff2'),
+    url('./font/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),
+    url('./font/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+}
