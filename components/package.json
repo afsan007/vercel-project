@@ -40,7 +40,7 @@
     "array-move": "^2.2.2",
     "cross-fetch": "^3.0.4",
     "csstype": "^2.6.10",
-    "immer": "^5.3.6",
+    "immer": "^8.0.1",
     "jalali-moment": "^3.3.4",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
